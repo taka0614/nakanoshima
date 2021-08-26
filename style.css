@@ -50,6 +50,7 @@ img.nav_tel {
 .nav_main img {
     width: 250px;
     margin-top: 5%;
+    z-index: 1;
 }
 
 .bg-slider {
