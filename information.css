@@ -82,21 +82,21 @@
 }
 
 .line1 {
-    height: 400px;
+    height: 380px;
 }
 
 .line2 {
-    height: 440px;
+    height: 420px;
 }
 
 .line3 {
-    height: 280px;
-}
-
-.line4 {
     height: 260px;
 }
 
+.line4 {
+    height: 240px;
+}
+
 .line5 {
-    height: 380px;
+    height: 360px;
 }
