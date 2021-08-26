@@ -1,0 +1,102 @@
+.information , .days_flow {
+    position: relative;
+    padding: 5%;
+    padding-top: 20%;
+    margin: 5%;
+    border-radius: 7%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.information_img , .days_flow_img {
+    position: absolute;
+    top: 5%;
+    left: -3%;
+  }
+
+.information_map {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.contents_title {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+
+.days_flow_img {
+    top: 1%;
+}
+
+
+.days_flow_title {
+    top: 1.5%;
+}
+
+.flow {
+    position: relative;
+    background-image: url(img/top_information_bg.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 7%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.flow_time {
+    position: absolute;
+    top: -3%;
+    left: -10%;
+    color: #00947a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flow_title {
+    text-align: center;
+}
+
+.picture_gallery {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.picture_gallery img {
+    width: 80%;
+    margin: 5%;
+}
+
+.flow_text {
+    font-size: 14px;
+}
+
+.line {
+    width: 10px;
+    background-color: #00947a;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 5%;
+    left: -1%;
+}
+
+.line1 {
+    height: 420px;
+}
+
+.line2 {
+    height: 460px;
+}
+
+.line3 {
+    height: 300px;
+}
+
+.line4 {
+    height: 280px;
+}
+
+.line5 {
+    height: 400px;
+}
