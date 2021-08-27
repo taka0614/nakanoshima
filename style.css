@@ -370,6 +370,7 @@ img.slider_frame {
 }
 
 .news_title {
+  font-size: 14px;
   margin-left: 10%;
   white-space: nowrap;
 }
