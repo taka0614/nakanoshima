@@ -50,7 +50,6 @@ img.event_month {
 
 .aug {
     background-image: url(img/tanabata.png);
-    background-size: auto;
 }
 
 .sep {
@@ -59,7 +58,6 @@ img.event_month {
 
 .oct {
     background-image: url(img/halloween.png);
-    background-size: auto;
 }
 
 .nov {
@@ -76,10 +74,8 @@ img.event_month {
 
 .feb {
     background-image: url(img/setsubun.png);
-    background-size: auto;
 }
 
 .mar {
     background-image: url(img/hinamatsuri.png);
-    background-size: contain;
 }
