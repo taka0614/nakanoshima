@@ -18,6 +18,13 @@ main {
     padding-bottom: 10%;
 }
 
+.sp_menu {
+  width: 50px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
 nav {
     margin-top: 5%;
 }
