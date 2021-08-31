@@ -107,6 +107,10 @@
     height: 350px;
 }
 
+.flow_wrap {
+    margin-top: -40px;
+}
+
 .bus_icon {
     width: 100px;
     transform: rotate(
@@ -117,5 +121,5 @@
     left: -60px;
     z-index: 1;
     margin-left: -68px;
-    margin-bottom: 0px;
+    margin-bottom: -130px;
 }
