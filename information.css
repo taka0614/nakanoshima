@@ -35,9 +35,10 @@
 
 .flow {
     position: relative;
-    background-image: url(img/top_information_bg.jpg);
-    background-size: cover;
-    background-position: right;
+    background-image: url(img/page_content_area_bg.gif);
+    background-size: 25%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
     padding: 5%;
     margin-top: 10%;
     margin-bottom: 10%;
