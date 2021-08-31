@@ -178,3 +178,10 @@ strong {
 .btn_wrap {
     text-align: center;
 }
+
+.download_title {
+    text-align: center;
+    margin: 5% 0;
+    font-size: 18px;
+    font-weight: bold;
+}
