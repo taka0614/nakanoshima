@@ -58,6 +58,7 @@
     color: #00947a;
     font-size: 20px;
     font-weight: bold;
+    z-index: 2;
 }
 
 .flow_title {
@@ -120,5 +121,5 @@
     top: 20px;
     left: -60px;
     z-index: 1;
-    margin-left: -68px;
+    margin-left: -60px;
 }
