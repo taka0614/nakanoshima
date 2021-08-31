@@ -332,6 +332,8 @@ img.slider_frame {
 
 .policy_title p {
   text-align: right;
+  border-bottom: solid #f8f8c2;
+  margin-left: 10%;
 }
 
 .policy_text , .ayumi_text {

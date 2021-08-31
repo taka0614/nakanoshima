@@ -33,6 +33,11 @@
     top: 1.5%;
 }
 
+.days_flow_text {
+    margin-top: 10px;
+    padding: 3%;
+}
+
 .flow {
     position: relative;
     background-image: url(img/page_content_area_bg.gif);
@@ -100,4 +105,21 @@
 
 .line5 {
     height: 350px;
+}
+
+.flow_wrap {
+    margin-top: -80px;
+}
+
+.bus_icon {
+    width: 100px;
+    transform: rotate(
+270deg
+);
+    position: sticky;
+    top: 0px;
+    left: -60px;
+    z-index: 1;
+    margin-left: -68px;
+    margin-bottom: 0px;
 }

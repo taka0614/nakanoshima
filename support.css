@@ -80,6 +80,8 @@ hr {
     background-size: 25%;
     background-position: bottom right;
     background-repeat: no-repeat;
+    background-color: rgba(255,255,255,.5);
+    background-blend-mode: lighten;
     padding: 5%;
     margin: 0 5% 5%;
     border-radius: 0 8% 8% 8%;
