@@ -81,12 +81,14 @@
 
 .line {
     width: 10px;
-    height: 1800px;
+    height: 95%;
     background-color: #b1b1b1;
-    transform: rotate(0deg);
+    transform: rotate(
+0deg
+);
     position: absolute;
     top: 5%;
-    left: -1%;
+    left: 5%;
 }
 
 .flow_wrap {
@@ -147,8 +149,8 @@
 
     .line {
         width: 20px;
-        height: 7000px;
-        top: 120px;
+        top: 5%;
+        left: 9%;
     }
 
     .bus_icon {
