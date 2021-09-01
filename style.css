@@ -18,6 +18,10 @@ main {
     padding-bottom: 10%;
 }
 
+.pc_menu {
+  display: none;
+}
+
 .sp_menu {
   position: absolute;
   top: 2%;
@@ -82,11 +86,15 @@ img.nav_tel {
 }
 
 img.slider_frame {
-    width: 100%;
-    height: 250px;
-    position: absolute;
-    top: 275px;
-    left: 0;
+  width: 120%;
+  height: 250px;
+  position: absolute;
+  top: -35px;
+  left: -30px;
+}
+
+.symbol {
+  display: none;
 }
 
 .menu_text {
@@ -534,4 +542,188 @@ footer img {
 
 .link_bnr img {
   width: 100px;
+}
+
+@media (min-width: 768px) {
+
+  p {
+    font-size: 20px;
+  }
+
+  main {
+    width: 100%;
+    padding-bottom: 3%;
+  }
+
+  .site_title {
+    font-size: 24px;
+  }
+
+  .sp_menu {
+    display: none;
+  }
+
+  .pc_menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10%;
+    margin-bottom: 5%;
+  }
+
+  .nav_header {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+  }
+
+  .nav_header img {
+    width: 400px;
+  }
+
+  .nav_main img {
+    width: 400px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .bg-slider {
+    height: 50vh;
+  }
+
+  img.slider_frame {
+    width: 105%;
+    height: 550px;
+    top: -70px;
+  }
+
+  .symbol {
+    display: block;
+    width: 200px;
+    margin: auto;
+  }
+
+  .menu_text.mark {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 36px;
+  }
+
+  .menu_text {
+    font-size: 24px;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .menu-open-button , .menu-item {
+    display: none;
+  }
+
+  .ayumi, .individuality, .policy_container, .news, .access, .download, .buy, .bus, .blog {
+    margin: 5% auto;
+    max-width: 800px;
+  }
+
+  .policy_container img {
+    width: 150px;
+  }
+
+  .policy_title img {
+    width: 200px;
+  }
+
+  .policy_title p {
+    margin-left: 48%;
+    font-size: 20px;
+  }
+
+  .policy_text, .ayumi_text {
+    font-size: 18px;
+  }
+
+  .ayumi, .individuality, .news, .access {
+    padding-top: 10%;
+  }
+
+  .contents_title {
+    font-size: 20px;
+    top: 45px;
+  }
+
+  .ayumi_title , .individuality_title {
+    top: 60px;
+  }
+
+  .ayumi_img, .individuality_img, .news img, .access img {
+    width: 300px;
+  }
+
+  .director {
+    width: 300px;
+  }
+
+  .news_date , .news_title {
+    font-size: 24px;
+  }
+
+  .btn {
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .care_support p {
+    font-size: 20px;
+  }
+
+  p.care_support_title {
+    font-size: 36px;
+  }
+
+  .care_support_pictures {
+    display: flex;
+  }
+
+  .care_support_picture {
+    width: 50%;
+    margin: 3% 0;
+  }
+
+  .care_support_laber {
+    width: 300px;
+    height: 50px;
+    top: 30px;
+    left: 60px;
+  }
+
+  .care_support_laber_title {
+    top: 40px;
+    left: 90px;
+  }
+
+  .access p {
+    font-size: 20px;
+  }
+
+  .download, .buy, .bus, .blog {
+    width: 500px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  .footer_logo {
+    width: 350px;
+    margin: auto;
+  }
+
+  footer img {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .link_bnr img {
+    width: 150px;
+  }
+
 }

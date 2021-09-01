@@ -188,3 +188,57 @@ strong {
     font-size: 18px;
     font-weight: bold;
 }
+
+@media (min-width: 768px)  {
+
+    .panel_contents {
+        width: 800px;
+        margin: 5% auto;
+    }
+
+    .panel_contents:first-of-type {
+        margin-top: 0;
+        border-radius: 0 0 8% 8%;
+    }
+
+    .tab-panels ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tab-panels ul li {
+        width: 200px;
+        padding: 1% 3%;
+        margin: 0;
+    }
+
+    .panel_contents img {
+        margin-left: -9%;
+        width: 300px;
+    }
+
+    .panel_title {
+        top: 64px;
+        left: 2%;
+    }
+
+    .panel_contents p {
+        padding-top: 2%;
+    }
+
+    .panel_contents_picture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel_contents_picture img {
+        width: 80%;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .download_btn , .tel_btn {
+        width: 300px;
+    }
+}

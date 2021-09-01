@@ -81,3 +81,24 @@ img.event_month {
 .mar {
     background-image: url(img/hinamatsuri.png);
 }
+
+@media (min-width: 768px) {
+
+    .events {
+        margin-top: 10%;
+    }
+
+    .event {
+        width: 800px;
+        margin: 10% auto;
+        padding-top: 10%;
+    }
+
+    .event img {
+        height: auto;
+    }
+
+    img.event_month {
+        width: 200px;
+    }
+}
