@@ -727,3 +727,14 @@ footer img {
   }
 
 }
+
+@media (min-width: 1400px) {
+  .bg-slider {
+    height: 80vh;
+  }
+
+  img.slider_frame {
+    width: 110%;
+    height: 800px;
+  }
+}
