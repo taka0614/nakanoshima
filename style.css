@@ -79,20 +79,21 @@ img.nav_tel {
 }
 
 .bg-slider {
-    width: 80%;
-	  height: 30vh;
-    margin: auto;
+    width: 100%;
+	  height: 40vh;
     position: relative;
     background-size: cover;
     z-index: 1;
 }
 
-img.slider_frame {
-  width: 120%;
-  height: 250px;
-  position: absolute;
-  top: -35px;
-  left: -30px;
+.bg-slider::before {
+  content: "";
+  width: 100%;
+  height: 40vh;
+  display: inline-block;
+  background-image: url(img/top_slide_boreder_img.gif);
+  background-size: cover;
+  background-position: center;
 }
 
 .symbol {
