@@ -92,6 +92,10 @@ hr {
     margin-left: -10%;
 }
 
+img.picture {
+    margin-left: 0;
+}
+
 .panel_title {
     position: absolute;
     top: 30px;
